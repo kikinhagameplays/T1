@@ -321,7 +321,17 @@ body {
         display: none;
     }
 
-    .brand,
+    .brand {
+        display: block;
+        position: fixed;
+        top: 1rem;
+        left: 1rem;
+        width: clamp(6.5rem, 26vw, 9rem);
+        margin: 0;
+        padding: 0;
+        z-index: 20;
+    }
+
     .copyright {
         display: none;
     }
